@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  border-radius: 20px;
+  top: 100px;
+  position: fixed;
+  left: 100px;
+  height: 500px;
+  overflow-y: scroll;
+}

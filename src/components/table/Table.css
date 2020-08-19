@@ -1,0 +1,46 @@
+.react-resizable-handle {
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  bottom: 0;
+  right: -10px;
+  cursor: col-resize;
+  z-index: 1;
+}
+
+.table-header-cell,
+.table-cell {
+  position: relative;
+  text-align: center;
+}
+
+.table-header-cell {
+  background: aliceblue;
+}
+
+.table-header-cell.active {
+  background: lightblue;
+}
+
+.row {
+  display: flex;
+}
+
+.table-row:nth-child(even) {
+  background: #eaeaea;
+}
+
+.table {
+  display: table;
+}
+
+.table-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.cell {
+  border-left: aliceblue 1px solid;
+  border-right: aliceblue 1px solid;
+}
